@@ -20,8 +20,8 @@ function add2(n) {
 
 var funkyFunction = function() {
   return "FUNKY!"
-  return function innerScope() {
-    
+  return function() {
+
   }
 }
 
@@ -29,4 +29,3 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction();
 
-innerScope()
