@@ -18,28 +18,12 @@ function add2(n) {
   return n + two
 }
 
-// function funkyFunction() {
-//   var funk = "FUNKY!"
-//   return function innerFun() {
-//
-//     return funk
-//   }
-//
-// }
-
-function funkyFunction() {
-  var funk = "I'm sort of a secret.";
-
-  return function innerScope() {
-    var inaccessible = "Nothing can touch me.";
-
-    return innerVariable;
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
   }
-  innerScope();
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction();
-
-theFunk
+var theFunk = funkyFunction()();
