@@ -23,7 +23,7 @@ function funkyFunction() {
   return function innerFun() {
     return funk
   }
-  // innerFun()
+  innerFun()
 
 }
 
