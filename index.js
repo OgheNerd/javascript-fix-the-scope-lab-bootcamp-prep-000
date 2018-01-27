@@ -21,18 +21,18 @@ function add2(n) {
 // function funkyFunction() {
 //   var funk = "FUNKY!"
 //   return function innerFun() {
-// 
+//
 //     return funk
 //   }
-// 
+//
 // }
 
 function funkyFunction() {
   var funk = "I'm sort of a secret.";
- 
+
   return function innerScope() {
     var inaccessible = "Nothing can touch me.";
- 
+
     return innerVariable;
   }
 }
