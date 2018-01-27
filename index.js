@@ -24,7 +24,6 @@ function funkyFunction() {
 
     return funk
   }
-  innerFun()
 
 }
 
